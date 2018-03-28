@@ -5,9 +5,19 @@
 border: 1px solid black; border-collapse: collapse;
 }
 </style> <!-- border-collapse: collapse 단선으로, 반대는 separate -->
-<title>20171410 최수혁 시간표</title>
+<title>HTML5 고급 테이블 실습</title>
 </head>
 <body>
+<style>
+.subject1{ background-color:yellow;}
+.subject2{ background-color:orange;}
+.subject3{ background-color:#f7987e;}
+.subject4{ background-color:#36b560;}
+.subject5{ background-color:#e8d547;}
+.subject6{ background-color:#47e8c2;}
+.subject7{ background-color:#d863e8;}
+.subject8{ background-color:#ed7190;}
+</style>
 <table>
  <caption>&lt;2학년 1학기&gt; 20171410 최수혁 시간표</caption>
  <thead>
@@ -16,25 +26,25 @@ border: 1px solid black; border-collapse: collapse;
  </tr>
  <tbody align=center>
  <tr>
-  <td>1</td><td></td><td></td><td rowspan="2">자료구조및실습</td><td rowspan="2">영어회화1</td><td></td>
+  <td>1</td><td></td><td></td><td rowspan="2" class="subject2">자료구조및실습</td><td rowspan="2" class="subject4">영어회화1</td><td></td>
  </tr>
  <tr>
   <td>2</td><td></td><td></td><td></td>
  </tr>
  <tr>
-  <td>3</td><td rowspan="2">디지털 논리회로</td><td rowspan="2">자료구조및실습</td><td></td><td rowspan="2">인터넷프로그래밍</td><td></td>
+  <td>3</td><td rowspan="2" class="subject1">디지털 논리회로</td><td rowspan="2" class="subject2">자료구조및실습</td><td></td><td rowspan="2" class="subject8">인터넷프로그래밍</td><td></td>
  </tr>
  <tr>
-  <td>4</td><td rowspan="2">인터넷프로그래밍</td><td></td>
+  <td>4</td><td rowspan="2" class="subject8">인터넷프로그래밍</td><td></td>
  </tr>
  <tr>
-  <td>5</td><td></td><td>디지털 논리회로</td><td></td><td></td>
+  <td>5</td><td></td><td class="subject1">디지털 논리회로</td><td></td><td></td>
  </tr>
  <tr>
-  <td>6</td><td rowspan="4">c++프로그래밍</td><td></td><td></td><td></td><td></td>
+  <td>6</td><td rowspan="4" class="subject5">c++프로그래밍</td><td></td><td></td><td></td><td></td>
  </tr>
   <tr>
-  <td>7</td><td rowspan="3">영화예술의 이해</td><td rowspan="3">서양건축의 이해</td><td rowspan="2">캠퍼스 멘토링</td><td></td>
+  <td>7</td><td rowspan="3" class="subject6">영화예술의 이해</td><td rowspan="3" class="subject7">서양건축의 이해</td><td rowspan="2" class="subject3">캠퍼스 멘토링</td><td></td>
  </tr>
   <tr>
   <td>8</td><td></td>
