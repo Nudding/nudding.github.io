@@ -23,7 +23,7 @@
     nav ul li {display:inline; margin:25px;}
   
     body{
-        font-family: 'Gamja Flower';
+        font-family: 'Do Hyeon';
     }
         .header{
             height: 150px;
@@ -31,6 +31,9 @@
             border: 0px;
             text-align:center;
             
+        }
+        div{
+          font-family: 'Do Hyeon';
         }
 
         footer {
@@ -87,8 +90,8 @@
         
         img
         {
-          height:300px;
-          width:200px;
+          height:150px;
+          width:100px;
           float:left;
         }
 
