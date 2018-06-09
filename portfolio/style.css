@@ -21,6 +21,13 @@
     .col-9{width:75%;} .col-10{ width:83.33%;} .col-11{width:91.66%;} .col-12{width:100%;}}
     nav ul {margin:0; padding:0;}
     nav ul li {display:inline; margin:25px;}
+    ul li ol li{display:block;}
+    ol li{display:block;}
+    ol li a:link{color:gray;}
+    ol li a:visited{color:gray;}
+    ol li a:hover{color:gray;}
+    ol li a:active{color:gray;}
+    ul{list-style-type:square; }
   
     body{
         font-family: 'Do Hyeon';
@@ -32,7 +39,9 @@
             text-align:center;
             
         }
-       
+        div{
+          font-family: 'Do Hyeon';
+        }
 
         footer {
             height: 100px;
@@ -47,7 +56,7 @@
             float: left;
             text-align: center;
             margin: 0 auto;
-            font-family: 'Poor Story';
+            
         }
 
         .div100Per {
@@ -57,6 +66,7 @@
             font-family: 'Poor Story';
             margin: 0 auto;
         }
+        
 
         a:link {
             color: #cf9e0a;
@@ -88,8 +98,8 @@
         
         img
         {
-          height:350px;
-          width:250px;
-          float:left;
+          height:400px;
+          width:200px;
+          float:center;
         }
 
