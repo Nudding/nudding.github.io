@@ -2,7 +2,7 @@
 @import url(//fonts.googleapis.com/css?family=Do+Hyeon|Jua|Nanum+Gothic+Coding);
             * {  box-sizing:border-box; padding:0; margin:0; }
     .row::after { content:""; clear:both; display:table; }
-    [class*="col-"] { float:left; padding:10px; bottom;}
+    [class*="col-"] { float:left; padding:10px;}
     .menu  ul, .banner ul { list-style-type:none; }
     .menu  li { background-color:pink; color:black; padding:0px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
     .menu li:hover{background-color:red;}
@@ -14,7 +14,7 @@
     @media only screen and (min-width: 0px) {        /* mobile */
     .col-m-0 {width: 0%;} .col-m-1 {width: 8.33%;}     .col-m-2 {width: 16.66%;}    .col-m-3 {width: 25%;}    .col-m-4 {width: 33.33%;}
     .col-m-5 {width: 41.66%;}    .col-m-6 {width: 50%;}    .col-m-7 {width: 58.33%;}    .col-m-8 {width: 66.66%;}
-    .col-m-9 {width: 75%;}    .col-m-10 {width: 83.33%;}    .col-m-11 {width: 91.66%;}    .col-m-12 {width: 100%;} .img{width:200px; height:100px; }
+    .col-m-9 {width: 75%;}    .col-m-10 {width: 83.33%;}    .col-m-11 {width: 91.66%;}    .col-m-12 {width: 100%;} .img{width:200px; height:100px; }}
     @media only screen and (min-width: 1000px) {        /* desktop */
     .col-1{ width:8.33%;} .col-2{width:16.66%;} .col-3{width:25%;} .col-4{ width:33.33%;}
     .col-5{width:41.66%;} .col-6{width:50%;} .col-7{ width:58.33%;} .col-8{width:66.66%;}
@@ -68,28 +68,28 @@
             color: #cf9e0a;
             background-color: transparent;
             text-decoration: none;
-            size= 30;
+            size: 30;
         }
 
         a:visited {
             color: #cf9e0a;
             background-color: transparent;
             text-decoration: none;
-            size=30;
+            size:30;
         }
 
         a:hover {
             color: #cf9e0a;
             background-color: transparent;
             text-decoration: underline;
-            size=10;
+            size:10;
         }
 
         a:active {
             color: #cf9e0a;
             background-color: transparent;
             text-decoration: none;
-            size=10;
+            size:10;
         }
         
         img
